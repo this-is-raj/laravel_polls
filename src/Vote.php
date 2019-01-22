@@ -1,6 +1,6 @@
 <?php
 
-namespace Raj\Larapoll;
+namespace Raj\LaravelPoll;
 
 use Illuminate\Database\Eloquent\Model;
 

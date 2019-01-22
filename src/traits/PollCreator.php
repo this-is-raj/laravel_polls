@@ -1,11 +1,11 @@
 <?php
-namespace Raj\Larapoll\Traits;
+namespace Raj\LaravelPoll\Traits;
 
 use Illuminate\Support\Facades\DB;
-use Raj\Larapoll\Exceptions\CheckedOptionsException;
-use Raj\Larapoll\Exceptions\OptionsInvalidNumberProvidedException;
-use Raj\Larapoll\Exceptions\OptionsNotProvidedException;
-use Raj\Larapoll\Option;
+use Raj\LaravelPoll\Exceptions\CheckedOptionsException;
+use Raj\LaravelPoll\Exceptions\OptionsInvalidNumberProvidedException;
+use Raj\LaravelPoll\Exceptions\OptionsNotProvidedException;
+use Raj\LaravelPoll\Option;
 
 trait PollCreator
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Raj\Larapoll\Tests;
+namespace Raj\LaravelPoll\Tests;
 
 use App\User;
-use Raj\Larapoll\Poll;
+use Raj\LaravelPoll\Poll;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class PollDashboardTest extends \TestCase

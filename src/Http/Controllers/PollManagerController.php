@@ -1,12 +1,12 @@
 <?php
 
-namespace Raj\Larapoll\Http\Controllers;
+namespace Raj\LaravelPoll\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Raj\Larapoll\Helpers\PollHandler;
-use Raj\Larapoll\Http\Request\PollCreationRequest;
-use Raj\Larapoll\Poll;
+use Raj\LaravelPoll\Helpers\PollHandler;
+use Raj\LaravelPoll\Http\Request\PollCreationRequest;
+use Raj\LaravelPoll\Poll;
 
 class PollManagerController extends Controller
 {

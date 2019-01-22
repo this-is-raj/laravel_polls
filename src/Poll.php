@@ -1,12 +1,12 @@
 <?php
 
-namespace Raj\Larapoll;
+namespace Raj\LaravelPoll;
 
 use Illuminate\Database\Eloquent\Model;
-use Raj\Larapoll\Traits\PollCreator;
-use Raj\Larapoll\Traits\PollAccessor;
-use Raj\Larapoll\Traits\PollManipulator;
-use Raj\Larapoll\Traits\PollQueries;
+use Raj\LaravelPoll\Traits\PollCreator;
+use Raj\LaravelPoll\Traits\PollAccessor;
+use Raj\LaravelPoll\Traits\PollManipulator;
+use Raj\LaravelPoll\Traits\PollQueries;
 
 class Poll extends Model
 {

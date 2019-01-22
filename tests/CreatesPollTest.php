@@ -1,6 +1,6 @@
 <?php
 
-namespace Raj\Larapoll\Tests;
+namespace Raj\LaravelPoll\Tests;
 
 use App\User;
 use Illuminate\Foundation\Testing\DatabaseTransactions;

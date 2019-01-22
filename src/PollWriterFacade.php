@@ -1,5 +1,5 @@
 <?php
-namespace Raj\Larapoll;
+namespace Raj\LaravelPoll;
 
 use Illuminate\Support\Facades\Facade;
 

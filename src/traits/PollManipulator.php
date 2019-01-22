@@ -1,12 +1,12 @@
 <?php
-namespace Raj\Larapoll\Traits;
+namespace Raj\LaravelPoll\Traits;
 
 use Illuminate\Support\Collection;
-use Raj\Larapoll\Exceptions\CheckedOptionsException;
-use Raj\Larapoll\Exceptions\OptionsInvalidNumberProvidedException;
-use Raj\Larapoll\Exceptions\OptionsNotProvidedException;
-use Raj\Larapoll\Exceptions\RemoveVotedOptionException;
-use Raj\Larapoll\Option;
+use Raj\LaravelPoll\Exceptions\CheckedOptionsException;
+use Raj\LaravelPoll\Exceptions\OptionsInvalidNumberProvidedException;
+use Raj\LaravelPoll\Exceptions\OptionsNotProvidedException;
+use Raj\LaravelPoll\Exceptions\RemoveVotedOptionException;
+use Raj\LaravelPoll\Option;
 
 trait PollManipulator
 {

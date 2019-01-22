@@ -1,6 +1,6 @@
 <?php
 
-namespace Raj\Larapoll\Http\Request;
+namespace Raj\LaravelPoll\Http\Request;
 
 
 use App\Http\Requests\Request;

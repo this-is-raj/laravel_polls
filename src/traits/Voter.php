@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Raj\Larapoll\Traits;
+namespace Raj\LaravelPoll\Traits;
 
 
-use Raj\Larapoll\Exceptions\PollNotSelectedToVoteException;
-use Raj\Larapoll\Exceptions\VoteInClosedPollException;
-use Raj\Larapoll\Option;
-use Raj\Larapoll\Poll;
+use Raj\LaravelPoll\Exceptions\PollNotSelectedToVoteException;
+use Raj\LaravelPoll\Exceptions\VoteInClosedPollException;
+use Raj\LaravelPoll\Option;
+use Raj\LaravelPoll\Poll;
 
 trait Voter
 {

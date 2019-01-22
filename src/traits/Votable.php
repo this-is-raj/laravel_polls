@@ -1,9 +1,9 @@
 <?php
 
-namespace Raj\Larapoll\Traits;
+namespace Raj\LaravelPoll\Traits;
 
 use App\User;
-use Raj\Larapoll\Vote;
+use Raj\LaravelPoll\Vote;
 
 trait Votable
 {

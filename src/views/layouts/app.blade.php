@@ -44,7 +44,7 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ route('poll.home') }}">
-                LaraPoll
+                Laravel Polls
             </a>
         </div>
         <a href="{{ route('poll.create') }}" class="btn btn-success pull-right create-btn">Create new Poll</a>

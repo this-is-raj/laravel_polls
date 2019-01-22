@@ -1,12 +1,12 @@
 <?php
 
-namespace Raj\Larapoll\Helpers;
+namespace Raj\LaravelPoll\Helpers;
 
-use Raj\Larapoll\Exceptions\CheckedOptionsException;
-use Raj\Larapoll\Exceptions\OptionsInvalidNumberProvidedException;
-use Raj\Larapoll\Exceptions\OptionsNotProvidedException;
-use Raj\Larapoll\Exceptions\RemoveVotedOptionException;
-use Raj\Larapoll\Poll;
+use Raj\LaravelPoll\Exceptions\CheckedOptionsException;
+use Raj\LaravelPoll\Exceptions\OptionsInvalidNumberProvidedException;
+use Raj\LaravelPoll\Exceptions\OptionsNotProvidedException;
+use Raj\LaravelPoll\Exceptions\RemoveVotedOptionException;
+use Raj\LaravelPoll\Poll;
 use Psy\Exception\Exception;
 
 class PollHandler {

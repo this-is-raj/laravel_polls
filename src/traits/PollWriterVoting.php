@@ -1,8 +1,8 @@
 <?php
-namespace Raj\Larapoll\Traits;
+namespace Raj\LaravelPoll\Traits;
 
 use Illuminate\Support\Facades\Session;
-use Raj\Larapoll\Poll;
+use Raj\LaravelPoll\Poll;
 
 trait PollWriterVoting
 {

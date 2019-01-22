@@ -1,4 +1,4 @@
-# Larapoll
+# LaravelPoll
 A Laravel package to manage your polls
 
 # Installation and Uses
@@ -7,14 +7,14 @@ Then include the service provider inside `config/app.php`.
 ```php
 'providers' => [
     ...
-    Raj\Larapoll\LarapollServiceProvider::class,
+    Raj\LaravelPoll\LaravelPollServiceProvider::class,
     ...
 ];
 
 
 'aliases' => [
         ...
-        'PollWriter' => Raj\Larapoll\PollWriterFacade::class,
+        'PollWriter' => Raj\LaravelPoll\PollWriterFacade::class,
         ...
 ];
 ```
@@ -34,7 +34,7 @@ ___
 To setup a model all you have to do is add (and import) the `Voter` trait.
 
 ```php
-use Raj\Larapoll\Traits\Voter;
+use Raj\LaravelPoll\Traits\Voter;
 class User extends Model
 {
     use Voter;
@@ -112,11 +112,11 @@ Add this line in the .env too
 ```php
 LARAPOLL_ADMIN_AUTH_MIDDELWARE = auth
 LARAPOLL_PAGINATION = 10
-LARAPOLL_PREFIX = Larapoll
+LARAPOLL_PREFIX = LaravelPoll
 ```
 
 ## FRONT END USE
-With Larapoll its easy to integrate a poll for users to vote, you only have to specify two things
+With LaravelPoll its easy to integrate a poll for users to vote, you only have to specify two things
 - the ID of the poll 
 - the user(voter) instance
 

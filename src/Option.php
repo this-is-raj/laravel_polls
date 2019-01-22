@@ -1,9 +1,9 @@
 <?php
 
-namespace Raj\Larapoll;
+namespace Raj\LaravelPoll;
 
 use Illuminate\Database\Eloquent\Model;
-use Raj\Larapoll\Traits\Votable;
+use Raj\LaravelPoll\Traits\Votable;
 
 class Option extends Model
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Raj\Larapoll\Tests;
+namespace Raj\LaravelPoll\Tests;
 
 use App\User;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Raj\Larapoll\Poll;
+use Raj\LaravelPoll\Poll;
 
 class ManipulatesPollTest extends \TestCase
 {

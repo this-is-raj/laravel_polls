@@ -1,5 +1,5 @@
 <?php
-namespace Raj\Larapoll\Traits;
+namespace Raj\LaravelPoll\Traits;
 
 
 trait PollAccessor

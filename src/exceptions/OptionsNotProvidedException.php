@@ -1,6 +1,6 @@
 <?php
 
-namespace Raj\Larapoll\Exceptions;
+namespace Raj\LaravelPoll\Exceptions;
 
 use Exception;
 

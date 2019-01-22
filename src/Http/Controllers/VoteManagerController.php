@@ -1,10 +1,10 @@
 <?php
 
-namespace Raj\Larapoll\Http\Controllers;
+namespace Raj\LaravelPoll\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Raj\Larapoll\Poll;
+use Raj\LaravelPoll\Poll;
 
 class VoteManagerController extends Controller
 {

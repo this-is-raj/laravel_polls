@@ -1,10 +1,10 @@
 <?php
-namespace Raj\Larapoll;
+namespace Raj\LaravelPoll;
 
 use Illuminate\Support\ServiceProvider;
-use Raj\Larapoll\Helpers\PollWriter;
+use Raj\LaravelPoll\Helpers\PollWriter;
 
-class LarapollServiceProvider extends ServiceProvider
+class LaravelPollServiceProvider extends ServiceProvider
 {
 
     /**

@@ -1,10 +1,10 @@
 <?php
 
-namespace Raj\Larapoll\Helpers;
+namespace Raj\LaravelPoll\Helpers;
 
-use Raj\Larapoll\Poll;
-use Raj\Larapoll\Traits\PollWriterResults;
-use Raj\Larapoll\Traits\PollWriterVoting;
+use Raj\LaravelPoll\Poll;
+use Raj\LaravelPoll\Traits\PollWriterResults;
+use Raj\LaravelPoll\Traits\PollWriterVoting;
 
 class PollWriter {
     use PollWriterResults,
