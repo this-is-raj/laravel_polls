@@ -1,8 +1,8 @@
 <?php
-namespace Inani\Larapoll\Traits;
+namespace Raj\Larapoll\Traits;
 
 use Illuminate\Support\Facades\Session;
-use Inani\Larapoll\Poll;
+use Raj\Larapoll\Poll;
 
 trait PollWriterVoting
 {

@@ -7,14 +7,14 @@ Then include the service provider inside `config/app.php`.
 ```php
 'providers' => [
     ...
-    Inani\Larapoll\LarapollServiceProvider::class,
+    Raj\Larapoll\LarapollServiceProvider::class,
     ...
 ];
 
 
 'aliases' => [
         ...
-        'PollWriter' => Inani\Larapoll\PollWriterFacade::class,
+        'PollWriter' => Raj\Larapoll\PollWriterFacade::class,
         ...
 ];
 ```
@@ -34,7 +34,7 @@ ___
 To setup a model all you have to do is add (and import) the `Voter` trait.
 
 ```php
-use Inani\Larapoll\Traits\Voter;
+use Raj\Larapoll\Traits\Voter;
 class User extends Model
 {
     use Voter;

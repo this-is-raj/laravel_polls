@@ -1,8 +1,8 @@
 <?php
-namespace Inani\Larapoll;
+namespace Raj\Larapoll;
 
 use Illuminate\Support\ServiceProvider;
-use Inani\Larapoll\Helpers\PollWriter;
+use Raj\Larapoll\Helpers\PollWriter;
 
 class LarapollServiceProvider extends ServiceProvider
 {

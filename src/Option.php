@@ -1,9 +1,9 @@
 <?php
 
-namespace Inani\Larapoll;
+namespace Raj\Larapoll;
 
 use Illuminate\Database\Eloquent\Model;
-use Inani\Larapoll\Traits\Votable;
+use Raj\Larapoll\Traits\Votable;
 
 class Option extends Model
 {

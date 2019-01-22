@@ -1,10 +1,10 @@
 <?php
 
-namespace Inani\Larapoll\Http\Controllers;
+namespace Raj\Larapoll\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Inani\Larapoll\Poll;
+use Raj\Larapoll\Poll;
 
 class VoteManagerController extends Controller
 {

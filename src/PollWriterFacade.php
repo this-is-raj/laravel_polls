@@ -1,5 +1,5 @@
 <?php
-namespace Inani\Larapoll;
+namespace Raj\Larapoll;
 
 use Illuminate\Support\Facades\Facade;
 

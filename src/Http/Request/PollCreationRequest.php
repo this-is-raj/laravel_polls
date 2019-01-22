@@ -1,6 +1,6 @@
 <?php
 
-namespace Inani\Larapoll\Http\Request;
+namespace Raj\Larapoll\Http\Request;
 
 
 use App\Http\Requests\Request;

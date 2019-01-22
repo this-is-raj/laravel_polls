@@ -1,5 +1,5 @@
 <?php
-namespace Inani\Larapoll\Traits;
+namespace Raj\Larapoll\Traits;
 
 
 trait PollWriterResults

@@ -1,10 +1,10 @@
 <?php
 
-namespace Inani\Larapoll\Tests;
+namespace Raj\Larapoll\Tests;
 
 use App\User;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Inani\Larapoll\Poll;
+use Raj\Larapoll\Poll;
 
 class ManipulatesPollTest extends \TestCase
 {

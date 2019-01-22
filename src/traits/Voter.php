@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Inani\Larapoll\Traits;
+namespace Raj\Larapoll\Traits;
 
 
-use Inani\Larapoll\Exceptions\PollNotSelectedToVoteException;
-use Inani\Larapoll\Exceptions\VoteInClosedPollException;
-use Inani\Larapoll\Option;
-use Inani\Larapoll\Poll;
+use Raj\Larapoll\Exceptions\PollNotSelectedToVoteException;
+use Raj\Larapoll\Exceptions\VoteInClosedPollException;
+use Raj\Larapoll\Option;
+use Raj\Larapoll\Poll;
 
 trait Voter
 {

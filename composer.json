@@ -1,18 +1,18 @@
 {
-    "name": "inani/larapoll",
+    "name": "raj-kaj/laravel_polls",
     "description": "A Laravel package to create polls",
     "keywords": ["polls", "votes", "laravel", "php"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Inani El Houssain",
-            "email": "inanielhoussain@gmail.com"
+            "name": "Raj Kumar",
+            "email": "rajkjjn@gmail.com"
         }
     ],
     "minimum-stability": "stable",
     "autoload": {
       "psr-4": {
-        "Inani\\Larapoll\\": "src/"
+        "Raj\\Larapoll\\": "src/"
       }
     },
     "require": {

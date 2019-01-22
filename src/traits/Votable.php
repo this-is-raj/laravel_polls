@@ -1,9 +1,9 @@
 <?php
 
-namespace Inani\Larapoll\Traits;
+namespace Raj\Larapoll\Traits;
 
 use App\User;
-use Inani\Larapoll\Vote;
+use Raj\Larapoll\Vote;
 
 trait Votable
 {

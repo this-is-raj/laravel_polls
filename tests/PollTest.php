@@ -1,13 +1,13 @@
 <?php
 
-namespace Inani\Larapoll\Tests;
+namespace Raj\Larapoll\Tests;
 
 use App\User;
-use Inani\Larapoll\Poll;
+use Raj\Larapoll\Poll;
 use InvalidArgumentException;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Inani\Larapoll\Exceptions\VoteInClosedPollException;
-use Inani\Larapoll\Exceptions\RemoveVotedOptionException;
+use Raj\Larapoll\Exceptions\VoteInClosedPollException;
+use Raj\Larapoll\Exceptions\RemoveVotedOptionException;
 
 class PollTest extends \TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Inani\Larapoll\Tests;
+namespace Raj\Larapoll\Tests;
 
 use App\User;
-use Inani\Larapoll\Poll;
+use Raj\Larapoll\Poll;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class PollDashboardTest extends \TestCase

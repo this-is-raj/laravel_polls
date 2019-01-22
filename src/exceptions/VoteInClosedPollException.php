@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Inani\Larapoll\Exceptions;
+namespace Raj\Larapoll\Exceptions;
 
 use Exception;
 class VoteInClosedPollException extends Exception

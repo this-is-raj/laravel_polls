@@ -1,11 +1,11 @@
 <?php
-namespace Inani\Larapoll\Traits;
+namespace Raj\Larapoll\Traits;
 
 use Illuminate\Support\Facades\DB;
-use Inani\Larapoll\Exceptions\CheckedOptionsException;
-use Inani\Larapoll\Exceptions\OptionsInvalidNumberProvidedException;
-use Inani\Larapoll\Exceptions\OptionsNotProvidedException;
-use Inani\Larapoll\Option;
+use Raj\Larapoll\Exceptions\CheckedOptionsException;
+use Raj\Larapoll\Exceptions\OptionsInvalidNumberProvidedException;
+use Raj\Larapoll\Exceptions\OptionsNotProvidedException;
+use Raj\Larapoll\Option;
 
 trait PollCreator
 {

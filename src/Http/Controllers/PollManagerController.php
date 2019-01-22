@@ -1,12 +1,12 @@
 <?php
 
-namespace Inani\Larapoll\Http\Controllers;
+namespace Raj\Larapoll\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Inani\Larapoll\Helpers\PollHandler;
-use Inani\Larapoll\Http\Request\PollCreationRequest;
-use Inani\Larapoll\Poll;
+use Raj\Larapoll\Helpers\PollHandler;
+use Raj\Larapoll\Http\Request\PollCreationRequest;
+use Raj\Larapoll\Poll;
 
 class PollManagerController extends Controller
 {
