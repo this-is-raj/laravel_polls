@@ -1,4 +1,4 @@
-@extends('larapoll::layouts.app')
+@extends('laravel_poll::layouts.app')
 @section('title')
     Polls- Remove options
 @endsection

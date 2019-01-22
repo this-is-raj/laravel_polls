@@ -17,12 +17,12 @@ class PollManagerController extends Controller
      */
     public function __construct()
     {
-        $this->middleware( config('larapoll_config.admin_auth') );
+        $this->middleware( config('laravel_poll_config.admin_auth') );
     }
 
     public function home()
     {
-        return view('larapoll::dashboard.home');
+        return view('laravel_poll::dashboard.home');
     }
     /**
      * Show all the Polls in the database
@@ -32,9 +32,9 @@ class PollManagerController extends Controller
     public function index()
     {
         $polls = Poll::withCount('options', 'votes')->latest()->paginate(
-            config('larapoll_config.pagination')
+            config('laravel_poll_config.pagination')
         );
-        return view('larapoll::dashboard.index', compact('polls'));
+        return view('laravel_poll::dashboard.index', compact('polls'));
     }
 
     /**
@@ -58,7 +58,7 @@ class PollManagerController extends Controller
      */
     public function edit(Poll $poll)
     {
-        return view('larapoll::dashboard.edit', compact('poll'));
+        return view('laravel_poll::dashboard.edit', compact('poll'));
     }
 
     /**
@@ -91,7 +91,7 @@ class PollManagerController extends Controller
     }
     public function create()
     {
-        return view('larapoll::dashboard.create');
+        return view('laravel_poll::dashboard.create');
     }
 
     /**

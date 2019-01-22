@@ -1,6 +1,6 @@
 <?php
 
-$prefix = config('larapoll_config.prefix');
+$prefix = config('laravel_poll_config.prefix');
 
 Route::group(['namespace' => 'Raj\LaravelPoll\Http\Controllers', 'prefix' => $prefix], function(){
     Route::get('/admin', ['uses' => 'PollManagerController@home', 'as' => 'poll.home']);

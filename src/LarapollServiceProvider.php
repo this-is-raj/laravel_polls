@@ -35,10 +35,10 @@ class LaravelPollServiceProvider extends ServiceProvider
         // routes
         include __DIR__ . '/Http/routes.php';
         // views
-        $this->loadViewsFrom(__DIR__.'/views', 'larapoll');
+        $this->loadViewsFrom(__DIR__.'/views', 'laravel_poll');
 
         $this->publishes([
-            __DIR__.'/config/config.php' => config_path('larapoll_config.php'),
+            __DIR__.'/config/config.php' => config_path('laravel_poll_config.php'),
         ]);
     }
 

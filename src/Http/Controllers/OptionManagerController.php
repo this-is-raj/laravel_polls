@@ -17,7 +17,7 @@ class OptionManagerController extends Controller
      */
     public function __construct()
     {
-        $this->middleware( config('larapoll_config.admin_auth') );
+        $this->middleware( config('laravel_poll_config.admin_auth') );
     }
 
     /**
@@ -64,7 +64,7 @@ class OptionManagerController extends Controller
      */
     public function push(Poll $poll)
     {
-        return view('larapoll::dashboard.options.push', compact('poll'));
+        return view('laravel_poll::dashboard.options.push', compact('poll'));
     }
 
     /**
@@ -75,6 +75,6 @@ class OptionManagerController extends Controller
      */
     public function delete(Poll $poll)
     {
-        return view('larapoll::dashboard.options.remove', compact('poll'));
+        return view('laravel_poll::dashboard.options.remove', compact('poll'));
     }
 }

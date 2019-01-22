@@ -106,7 +106,7 @@ $poll->results()->inOrder();
 
 ## CRUD HANDLER
 ### Set up the admin middleware's name
-A larapoll_config.php file will be added where you can put the name of the middleware used to protect the access and other things like pagination and prefix to protect your routes
+A laravel_poll_config.php file will be added where you can put the name of the middleware used to protect the access and other things like pagination and prefix to protect your routes
 Add this line in the .env too
 
 ```php
