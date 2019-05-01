@@ -3,7 +3,7 @@
 namespace Raj\LaravelPoll\Http\Request;
 
 
-use App\Http\Requests\Request;
+use Illuminate\Support\Facades\Request;
 
 class PollCreationRequest extends Request
 {
